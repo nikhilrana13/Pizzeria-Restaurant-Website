@@ -23,3 +23,5 @@ React Router: For routing and page navigation.
 Tailwind CSS: For responsive and customizable styling.
 React Context API: To manage the state and share data across components.
 React Icons: To add beautiful icons for social media links and buttons.
+
+website live link : https://pizzeria-restaurant-website.vercel.app/
