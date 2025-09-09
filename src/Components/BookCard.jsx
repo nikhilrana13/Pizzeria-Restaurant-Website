@@ -1,7 +1,4 @@
 
-
-
-
 import React from 'react';
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { FaLongArrowAltRight } from 'react-icons/fa';

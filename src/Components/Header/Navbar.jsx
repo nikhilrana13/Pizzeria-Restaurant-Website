@@ -65,10 +65,9 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden lg:flex justify-center py-4">
         <ul className="flex gap-10">
-          <NavLink to="/" className="text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white">HOME</NavLink>
-          <NavLink to="/menu" className="text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white">MENU</NavLink>
-          <NavLink to="/about" className="text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white">ABOUT</NavLink>
-          <NavLink to="/contact" className="text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white">CONTACT</NavLink>
+          <NavLink to="/" className={({isActive})=> isActive ? `text-red-500 text-[1rem] font-[500]`:`text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white`}>HOME</NavLink>
+          <NavLink to="/menu" className={({isActive})=> isActive ? `text-red-500 text-[1rem] font-[500]`:`text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white`}  >MENU</NavLink>
+          <NavLink to="/contact" className={({isActive})=> isActive ? `text-red-500 text-[1rem] font-[500]`:`text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white`}>CONTACT</NavLink>
           <li className="text-[1rem] font-[500] text-gray-300 hover:text-white focus:text-white">OFFERS</li>
         </ul>
       </div>
